@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images\favicon\3BF6327F-10EC-4D86-ADAC-C4D78D9B57CCL0001.jpg">
+        <title>Demo Project</title>
+        <!--<style>
+            .font
+            {
+                font-family: sans-serif;
+            }
+            body
+            {
+                background-color: #181818;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            table
+            {
+                padding: 6%;
+                margin: 0 auto;
+                margin-top: 10%;
+                background-color: #282828;
+                color: aliceblue;
+            }
+            #text
+            {
+                padding: 5px;
+            }
+            #box
+            {
+                box-sizing: border-box;
+            }
+            #logo
+            {
+                margin: 10px;
+            }
+            th
+            {
+                margin-bottom: 5px;
+            }
+            .color
+            {}
+        </style>-->
+        <style>
+            .font
+            {
+                background-color: #181818;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #login
+            {
+                background-color: #282828;
+                width: 30%;
+            }
+            input[type=text], input[type=password] 
+            {
+                width: 70%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body class="font">
+        <center>
+       <!-- <table align="center">
+            <tr>
+                <th>Login Page</th>
+            </tr>
+            <tr>
+                <td id="logo"><center><img src="images\favicon\3BF6327F-10EC-4D86-ADAC-C4D78D9B57CCL0001.jpg" width="200px"></center></td>
+            </tr>
+            <tr>
+                <td id="text">Username :</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter your Username" id="box"></td>
+            </tr>
+            <tr>
+                <td id="text">Password :</td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="********" id="box"></td>
+            </tr>
+        </table>-->
+        <form method="post">
+            <div id="login">
+                <div>
+                    <label style="color:aliceblue"><b> SIGN IN </b></label>
+                </div>
+                <div>
+                    <img src="images\favicon\3BF6327F-10EC-4D86-ADAC-C4D78D9B57CCL0001.jpg" width="200px">
+                </div>
+                <div>
+                    <label style="color:aliceblue"><b>Username :</b></label><br>
+                    <input type="text" placeholder="Enter your Username" required><br>
+
+                    <label style="color:aliceblue"><b>Password :</b></label><br>
+                    <input type="password" placeholder="********" required><br>
+
+                    <button type="submit">Log In</button><br>
+                    <label style="color:aliceblue"><input type="checkbox" checked="checked" >Remember Me</label><br>
+                </div>
+                <div>
+                    <button type="button" style="background-color: seagreen;border-color: seagreen;">Cancel</button>
+                    <span style="color:aliceblue">Forget <a href="#">Password?</a></span>
+                </div>
+            </div>
+        </form>
+    </center>
+    </body>
+</html>
